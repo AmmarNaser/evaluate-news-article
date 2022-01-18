@@ -48,7 +48,17 @@ export default function App() {
 
         <button>Submit</button>
       </form>
-      {loading && <p className="">Loading..</p>}
+
+      <div>
+        {loading && (
+          <div id="loadFacebookG">
+            <div id="blockG_1" className="facebook_blockG"></div>
+            <div id="blockG_2" className="facebook_blockG"></div>
+            <div id="blockG_3" className="facebook_blockG"></div>
+          </div>
+        )}
+      </div>
+
       <section>
         <h3> Results </h3>
         <div>

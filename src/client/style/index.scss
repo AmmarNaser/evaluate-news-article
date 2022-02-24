@@ -6,7 +6,15 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 214, 214, 0.781) 49%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(245, 214, 214, 0.781) 49%
+  );
+}
 .mainPage {
   padding: 0%;
   margin: 0%;

@@ -5,7 +5,7 @@
   "description": "- ### node server dependencies....",
   "main": "index.js",
   "scripts": {
-    "predeploy": " npm run build-dev",
+    "predeploy": " npm run build",
     "deploy": "gh-pages -d build",
     "test": "jest",
     "start": "nodemon src/server/index.js",

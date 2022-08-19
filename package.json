@@ -9,6 +9,7 @@
     "start": "nodemon src/server/index.js",
     "predeploy": " npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "dev": "webpack server --config webpack.dev.js",
     "build-dev": "webpack --config webpack.dev.js",
     "build-prod": "webpack --config webpack.prod.js"

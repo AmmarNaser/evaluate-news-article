@@ -5,8 +5,8 @@
   "description": "- ### node server dependencies....",
   "main": "index.js",
   "scripts": {
-    "predeploy": " npm run build-prod",
-    "deploy": "gh-pages -d build-prod",
+    "predeploy": " npm run build-dev",
+    "deploy": "gh-pages -d build-dev",
     "test": "jest",
     "start": "nodemon src/server/index.js",
     "dev": "webpack server --config webpack.dev.js",

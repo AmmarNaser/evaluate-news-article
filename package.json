@@ -7,7 +7,7 @@
   "scripts": {
     "predeploy": " npm run build",
     "deploy": "gh-pages -d build",
-    "build":"react-scripts build",
+    "build": "react-scripts build",
     "test": "jest",
     "start": "nodemon src/server/index.js",
     "dev": "webpack server --config webpack.dev.js",

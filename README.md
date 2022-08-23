@@ -84,6 +84,5 @@ The developed App uses an API integration with meaning cloud which allows users 
     "dev": "webpack serve --config webpack.dev.js",
     "build-dev": "webpack --config webpack.dev.js",
     "build-prod": "webpack --config webpack.prod.js"
-    }, /
-    type: "asset/resource"
+    },
     ```

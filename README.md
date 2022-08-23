@@ -77,7 +77,7 @@ The developed App uses an API integration with meaning cloud which allows users 
 
   - ### "scripts":
 
-    ```javascript
+    ```json
     {
     "test": "jest --config jest.config.js",
     "start": "node src/server/index.js",

@@ -1,12 +1,12 @@
 {
-  "homepage": "https://AmmarNaser.github.io/evaluate-news-article",
+  "homepage": "https://ammaraaser.github.io/evaluate-news-article",
   "name": "evaluate-news-article",
   "version": "1.0.0",
-  "description": "- ### node server dependencies....",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build",
     "test": "jest",
+    "build": "npm run build",
     "start": "nodemon src/server/index.js",
     "dev": "webpack server --config webpack.dev.js",
     "build-dev": "webpack --config webpack.dev.js",

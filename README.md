@@ -75,7 +75,7 @@ The developed App uses an API integration with meaning cloud which allows users 
     npm i -D workbox-webpack-plugin
     ```
 
-  - ### "scripts":
+  - ### Scripts
 
     ```json
     {

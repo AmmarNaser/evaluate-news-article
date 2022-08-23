@@ -1,5 +1,9 @@
 # Evaluate news articles
 
+## Introduction
+
+The developed App uses an API integration with meaning cloud which allows users to run NLP on articles to get some sentimental insights.
+
 ## Overview
 
 ![This is an image](./_overview/pic.jpg)

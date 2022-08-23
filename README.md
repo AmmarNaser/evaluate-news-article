@@ -13,76 +13,73 @@
   - Express
 - Webpack
 
-## Setup
+- ## Setup
 
-- ### node server dependencies....
+  - ### Node server dependencies
 
-  ```
-  npm i express node-fetch cors dotenv
-  ```
+    ```
+    npm i express node-fetch cors dotenv
+    ```
 
-- ### react dependencies....
-  ```
-  npm i react react-dom
-  ```
+  - ### React dependencies
 
-> Dev Dependencies
+    ```
+    npm i react react-dom
+    ```
 
-- ### WebPack .....
+- > Dev Dependencies
 
-```
-npm i -D webpack webpack-cli webpack-dev-server
-```
+  - ### WebPack
 
-```
-npm i -D @babel/core @babel/preset-env babel-loader (if react => @babel/preset-react)
-```
+    ```
+    npm i -D webpack webpack-cli webpack-dev-server
+    ```
 
-- ### HTML File
+    ```
+    npm i -D @babel/core @babel/preset-env babel-loader (if react => @babel/preset-react)
+    ```
 
-  ```
-  npm i -D html-webpack-plugin
-  ```
+  - ### HTML File
 
-- ### Testing
+    ```
+    npm i -D html-webpack-plugin
+    ```
 
-```
-npm i -D jest babel-jest
-```
+  - ### Testing
 
-- ### Style loaders and plugins
+    ```
+    npm i -D jest babel-jest
+    ```
 
-  ```
-  npm i -D mini-css-extract-plugin
-  ```
+  - ### Style loaders and plugins
 
-  ```
-  npm i -D style-loader node-sass css-loader sass-loader
-  ```
+    ```
+    npm i -D mini-css-extract-plugin
+    ```
 
-  ```
-  npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
-  ```
+    ```
+    npm i -D style-loader node-sass css-loader sass-loader
+    ```
 
-- ### Service Worker
+    ```
+    npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+    ```
 
-  ```
-  npm i -D workbox-webpack-plugin
-  ```
+  - ### Service Worker
 
-- ### "scripts":
+    ```
+    npm i -D workbox-webpack-plugin
+    ```
 
-```
-  {
-  "test": "jest --config jest.config.js",
-  "start": "node src/server/index.js",
-  "dev": "webpack serve --config webpack.dev.js",
-  "build-dev": "webpack --config webpack.dev.js",
-  "build-prod": "webpack --config webpack.prod.js"
-  }, /
-  type: "asset/resource"
-```
+  - ### "scripts":
 
-```
-
-```
+    ```javascript
+    {
+    "test": "jest --config jest.config.js",
+    "start": "node src/server/index.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "build-dev": "webpack --config webpack.dev.js",
+    "build-prod": "webpack --config webpack.prod.js"
+    }, /
+    type: "asset/resource"
+    ```
